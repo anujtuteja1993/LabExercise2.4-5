@@ -1,0 +1,143 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FEFAE0;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    /* min-height: 1000px; */
+    display: grid; 
+    grid-template-columns: 0.5fr 1.5fr;
+    /* background-color: #FEFAE0; */
+}
+
+.container .flex-left {
+    position: relative;
+    background-color: #D4A373;
+    padding: 40px;
+    color: #FEFAE0;
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+}
+
+.Credentials {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Credentials h2 {
+    font-size: 1.75em;
+}
+
+.Credentials .imageBox {
+    position: relative;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.Credentials .imageBox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Credentials span {
+    font-size: 0.75em;
+    margin: 5px;
+}
+
+.Column {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.Column h3 {
+    color: #FAEDCD;
+    background-color: #CCD5AE;
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+    border-radius: 15%;
+}
+
+.Column ul {
+    list-style-type: none;
+}
+
+.Column ul > li > span {
+    font-size: 0.6em;
+}
+
+#email {
+    text-decoration: underline;
+}
+
+.Column td {
+    font-size: 0.7em;
+    padding: 5px;
+}
+
+.container .flex-right {
+    position: relative;
+    background-color: #FAEDCD;
+    padding: 40px;
+    border-top-right-radius: 1%;
+    border-bottom-right-radius: 1%;
+    color: #331800;
+}
+
+.Experience {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Experience h2 {
+    font-size: 1.25em;
+    padding: 10px;
+}
+
+.Experience h3 {
+    font-size: 1em;
+}
+
+.job {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.job .year {
+    margin: 10px;
+}
+
+.job .year h4 {
+    position: relative;
+    font-size: 0.8em;
+}
+
+.jd p {
+    font-size: 0.8em;
+}
